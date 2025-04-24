@@ -7,8 +7,9 @@
 
 .body {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background: linear-gradient(90deg,rgb(28, 28, 28),rgb(28, 28, 28),rgb(97, 33, 33),rgb(28, 28, 28),rgb(28, 28, 28));
+    position: relative;
 }
 
 nav{
@@ -18,7 +19,7 @@ nav{
     padding-left: 30px;
     padding-top: 10px;
     background: linear-gradient(235deg,black, rgb(69, 23, 23), black);
-    position: relative;
+    position: fixed;
     z-index: 10;
     display: flex;
 }
@@ -92,12 +93,15 @@ nav .lang-icon img{
 /* main */
 
 main{
+    width: 100%;
     padding-left: 100px;
     padding-top: 20px;
 }
 
 main .first-windows{
     display: flex;
+    position: absolute;
+    top: 70px;
 }
 
 main .first-windows .left{
@@ -170,4 +174,51 @@ main .first-windows .right{
 
 main .first-windows .right img{
     width: 640px;
+}
+
+main .second-windows{
+    position: absolute;
+    top: 110vh;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+main .second-windows h1{
+    width: 800px;
+    font-size: 35px;
+}
+
+main .second-windows p{
+    width: 800px;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+main .second-windows .divs{
+    display: flex;
+    margin-top: 80px;
+    gap: 25px;
+}
+
+main .second-windows .divs .div{
+    width: 250px;
+    height: 120px;
+    background: gray;
+    color: white;
+    border-radius: 12px;
+    font-size: 15px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+main .second-windows .divs .div:hover{
+    box-shadow: 0 10px 10px white;
+    transition: 1s;
+}
+
+main .second-windows .divs .div i{
+    font-size: 30px;
+    margin-bottom: 10px;
 }

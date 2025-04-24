@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,rgb(28, 28, 28),rgb(28, 28, 28),rgb(97, 33, 33),rgb(28, 28, 28),rgb(28, 28, 28));
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    opacity: 100px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background: linear-gradient(235deg,black, rgb(69, 23, 23), black);
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav span{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    background: rgb(57, 57, 57);
+    border-radius: 12px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 700px;
+}
+
+nav span .h1{
+    color: red;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul .li{
+    text-decoration: underline;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+nav .lang-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+nav .lang-icon:hover{
+    background: rgb(24, 24, 24);
+    transition: .5s;
+}
+
+nav .lang-icon img{
+    width: 40px;
+    height: 40px;
+}
+
+/* main */
+
+main{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+main .first-windows{
+    display: flex;
+}
+
+main .first-windows .left{
+    width: 600px;
+    height: 645px;
+    padding-top: 180px;
+    padding-left: 50px;
+}
+
+main .first-windows .left button{
+    width: 110px;
+    height: 30px;
+    border-radius: 32px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+main .first-windows .left .h1{
+    display: flex;
+    gap: 20px;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+
+main .first-windows .left .twenty-one{
+    color: rgb(145, 6, 6);
+}
+
+main .first-windows .left .p{
+    display: flex;
+    gap: 15px;
+    color: white;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+main .first-windows p:nth-child(3){
+    position: absolute;
+    left: 385px;
+}
+
+main .first-windows .left >.left-button{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+main .first-windows .left >.left-button:hover{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    background: linear-gradient(red,red,black);
+    border-radius: 12px;
+    border: none;
+    transition: 1s;
+}
+
+main .first-windows .right{
+    width: 700px;
+    height: 645px;
+}
+
+main .first-windows .right img{
+    width: 640px;
+}

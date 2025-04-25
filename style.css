@@ -7,7 +7,7 @@
 
 .body {
     width: 100%;
-    height: 360vh;
+    height: 390vh;
     background: linear-gradient(90deg,rgb(28, 28, 28),rgb(28, 28, 28),rgb(97, 33, 33),rgb(28, 28, 28),rgb(28, 28, 28));
     position: relative;
 }
@@ -346,6 +346,35 @@ main .fourth-windows .divs .div .h22{
 
 main .fourth-windows .divs .div .h2{
     top: 230px;
+}
+
+main .fifth-windows{
+    position: absolute;
+    top: 330vh;
+    color: white;
+    text-align: center;
+    padding-left: 200px;
+}
+
+main .fifth-windows h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+main .fifth-windows .divs{
+    display: flex;
+    gap: 100px;
+}
+
+main .fifth-windows .divs .div h1{
+    color: white;
+    font-size: 33px;
+}
+
+main .fifth-windows .divs .div h2{
+    color: gray;
+    margin-top: 10px;
+    font-size: 25px;
 }
 
 footer{
